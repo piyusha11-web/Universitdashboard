@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neptune Nexus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header>
+            <nav>
+                <div class="brand">
+                    <span class="brand-mark">N</span>
+                    <div>
+                        <h1>Neptune Nexus</h1>
+                        <p>Adaptive systems for tomorrow’s web.</p>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#platform">Platform</a></li>
+                    <li><a href="#users">Users</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero-panel section glass-panel">
+                <div class="hero-copy">
+                    <span class="eyebrow">NEXT GEN INTERFACE</span>
+                    <h2>Launch your digital world into the quantum web.</h2>
+                    <p>Neptune Nexus blends sleek holographic panels, live analytics, and immersive design for a futuristic user experience.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary">Explore Platform</button>
+                        <button class="btn btn-secondary">Live Demo</button>
+                    </div>
+                    <div class="hero-highlights">
+                        <span class="highlight-item">AI-enhanced UX</span>
+                        <span class="highlight-item">Realtime data streams</span>
+                        <span class="highlight-item">Glassmorphism UI</span>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-grid">
+                        <div class="visual-card">
+                            <p class="card-title">System Health</p>
+                            <strong>99.98%</strong>
+                        </div>
+                        <div class="visual-card">
+                            <p class="card-title">Active Nodes</p>
+                            <strong>18</strong>
+                        </div>
+                        <div class="visual-card">
+                            <p class="card-title">Latency</p>
+                            <strong>12 ms</strong>
+                        </div>
+                        <div class="visual-card">
+                            <p class="card-title">Throughput</p>
+                            <strong>4.2 GB/s</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="platform" class="section glass-panel">
+                <div class="section-intro">
+                    <h2>Platform Intelligence</h2>
+                    <p>Modern web experiences require performance, clarity, and futuristic motion. This platform delivers on every front.</p>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <h3>Holographic Console</h3>
+                        <p>Dynamic widgets that respond instantly to your inputs and data streams.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Quantum Data Flow</h3>
+                        <p>Live backend integration with fast state refresh and responsive analytics.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Immersive Visuals</h3>
+                        <p>Glassmorphism, neon gradients, and smooth motion combine for a polished aesthetic.</p>
+                    </article>
+                    <article class="feature-card">
+                        <h3>Secure Core</h3>
+                        <p>Built for reliability with strong encryption and modern design patterns.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="users" class="section glass-panel">
+                <div class="section-intro">
+                    <h2>User Management</h2>
+                    <p>Powerful backend controls meet an elegant frontend dashboard for smooth user operations.</p>
+                </div>
+                <div class="layout-grid">
+                    <div class="form-container glass-panel">
+                        <h3>Add New User</h3>
+                        <form id="userForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Age</label>
+                                <input type="number" id="age" name="age" min="1" max="120">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add User</button>
+                        </form>
+                    </div>
+
+                    <div class="users-container glass-panel">
+                        <div class="users-header">
+                            <h3>All Users</h3>
+                            <button onclick="loadUsers()" class="btn btn-secondary">🔄 Refresh</button>
+                        </div>
+                        <div id="usersList"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section glass-panel">
+                <div class="section-intro">
+                    <h2>Contact the Nexus</h2>
+                    <p>Reach out for collaboration, demos, or support with an interface built for the future.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <span>📧</span>
+                        <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <span>🌐</span>
+                        <p><a href="https://example.com" target="_blank">www.example.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <span>📱</span>
+                        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Neptune Nexus. All rights reserved.</p>
+            <p><a href="#home">Privacy</a> · <a href="#platform">Terms</a> · <a href="#contact">Support</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
